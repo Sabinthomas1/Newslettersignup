@@ -1,0 +1,74 @@
+.container1{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20rem;
+    margin: 2rem;
+    /* margin-right: -1rem; */
+    margin-top: 2.7rem;
+    padding: 1rem;
+}
+h1{
+    color: rgb(26, 25, 25);
+    font-weight: 700;
+    opacity: .9.5;
+    margin-top: -.5rem;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: 500;
+}
+.tick-handle{
+    display: flex;
+}
+.tick-handle img{
+    margin-right: .5rem;
+}
+.tick{
+    width: 1rem;
+}
+.illustration img{
+    height: 22rem;
+    width: 15rem;
+    margin: 1rem;
+}
+.email-add{
+    font-size: small;
+    font-weight: 700;
+}
+input{
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 6px;
+    font-size: medium;
+    padding: 1rem;
+    border: 1px solid rgb(207, 207, 207);
+}
+.container2 label{
+    margin-bottom: -.5rem;
+    color: rgb(44, 44, 44);
+}
+form p{
+    color: hsl(4, 100%, 67%) ;
+}
+.container2 button{
+    width: 18rem;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.container2 button:hover{
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+
+}
+

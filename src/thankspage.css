@@ -1,0 +1,37 @@
+.thanks{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 2rem;
+}
+.thanks2{
+    width: 15rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.thanks .tick{
+    width: 2.3rem;
+    margin-top: -.5rem;
+}
+h1{
+    color: rgb(38, 38, 38);
+    font-weight: 700;
+    line-height: 1.7rem;
+}
+span{
+    font-weight: 700;
+}
+
+.thanks button{
+    width: 15rem;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.thanks button:hover{
+    cursor: pointer;
+    background-color:hsl(4, 100%, 67%) ;
+}
